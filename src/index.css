@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  border: none;
 }
 
 .counter-container {
@@ -30,4 +31,20 @@
   font-size: 3rem;
   width: 5rem;
   border-radius: 0.5rem;
+}
+
+input {
+  width: 180px;
+  height: 150px;
+  background-color: bisque;
+  margin: 1rem;
+  color: rgb(230, 129, 146);
+  font-size: 5rem;
+  text-align: center;
+}
+
+.add,
+.reset {
+  font-size: 2rem;
+  width: auto;
 }
